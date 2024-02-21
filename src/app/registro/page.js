@@ -1,3 +1,3 @@
 export default function Registro(){
-    return( <p>Olá Mundo!</p>);
+    return( <h1>Página de Registro!</h1>);
 }
