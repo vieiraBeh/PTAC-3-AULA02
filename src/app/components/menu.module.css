@@ -1,5 +1,5 @@
 .cabecalho{
-    height: flex;
+    display: flex;
     height: 100px;
     background-color: #eeeeff;
 }
