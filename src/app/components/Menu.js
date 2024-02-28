@@ -6,13 +6,13 @@ export default function Menu(){
             <h1>Menu</h1>
             <nav>
                 <ul>
-                    <link href="/">
+                    <Link href="/">
                     <li>Home</li>
-                    </link>
+                    </Link>
 
-                    <link href="/registro">
+                    <Link href="/registro">
                     <li>Registrar</li>
-                    </link>
+                    </Link>
                 </ul>
             </nav>
         </header>
