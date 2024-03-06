@@ -1,6 +1,6 @@
 import Link from "next/link";
-import styles from "./menu.module.css"
-import Image from "next/image"
+import styles from "./menu.module.css";
+import Image from "next/image";
 
 export default function Menu(){
     return(
@@ -18,6 +18,10 @@ export default function Menu(){
 
                     <Link href="/registro">
                     <li>Registrar</li>
+                    </Link>
+
+                    <Link href= "/localizacao">
+                        <li>Localizar</li>
                     </Link>
                 </ul>
             </nav>
