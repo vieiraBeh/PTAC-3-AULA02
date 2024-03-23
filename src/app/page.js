@@ -1,18 +1,20 @@
-const url = "http://localhost:3000/api";
+const url = "https://back-end-ifms-tau.vercel.app/campi";
 
 export default async function Home() {
 
   const resposta = await fetch(url,{
-    cache:"no-cache"
+   next:{
+    revalidate: 1
+   }
   });
-  const campus = await resposta.json();
+  const campi = await resposta.json();
  
   return (
     <main>
       <h1>Home</h1>
-      {campus.map((campi) =>
+      {campi.map((campus) =>
         <div>
-             <p>{campi.nome_campi}</p>
+             <p>{campus.nome_campus}</p>
         </div>
       )}
     </main>
